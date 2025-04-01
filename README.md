@@ -34,3 +34,10 @@ cd front-react
 
 # Instale as dependências
 npm install
+```
+
+## 🛠 Usar
+```bash
+npm run dev
+```
+
