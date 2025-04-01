@@ -21,7 +21,7 @@ Sistema para visualizar e criar clintes utilizando API.
 
 ## ✨ Dependências
 - Repositório da API
-- Necessário clonar repositório 
+- Necessário clonar repositório https://github.com/nalivex/clientes-php/tree/master
 
 ## 🚀 Instalação
 
