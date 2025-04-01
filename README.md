@@ -1,12 +1,36 @@
-# React + Vite
+# 🛍️ Sistema de Gerenciamento de Clientes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
 
-Currently, two official plugins are available:
+## 📋 Índice
+- [Visão Geral](#-visão-geral)
+- [Funcionalidades](#-funcionalidades)
+- [Dependencias](#-depedências)
+- [Instalação](#-instalação)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Visão Geral
+Sistema para visualizar e criar clintes utilizando API.
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
+- Listagem de clientes com paginação
+- Cadastro de novos clientes
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Dependências
+- Repositório da API
+- Necessário clonar repositório 
+
+## 🚀 Instalação
+
+```bash
+# Clone o repositório
+git clone git@github.com:nalivex/front-react.git
+
+# Acesse a pasta do projeto
+cd front-react
+
+# Instale as dependências
+npm install
