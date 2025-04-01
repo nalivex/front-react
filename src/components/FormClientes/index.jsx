@@ -39,7 +39,15 @@ const CriarCliente = () => {
 			setSucesso(true);
 			setTimeout(() => navigate('/lista-clientes'), 1500);
 		} catch (error) {
-			setErro(error.response?.data?.message || 'Erro ao cadastrar cliente');
+			if (error.response?.status === 422 || error.response?.status === 400) {
+				const errorMessage = error.response?.data?.error ||
+					error.response?.data?.errors?.email?.[0] ||
+					'Email já cadastrado';
+				setErro(errorMessage);
+			} else {
+				// Outros tipos de erro
+				setErro(error.response?.data?.message || 'Erro ao cadastrar cliente');
+			}
 		} finally {
 			setCarregando(false);
 		}
